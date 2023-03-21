@@ -50,7 +50,7 @@
     <div class="col-md-12 text-center">
       <div class="card-body ">
         <h5 class="card-title">GALINHADA</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">This is a wider card  supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         <a class="btn btn-primary" href="#" role="button" style="width: 100%;">RECEITA</a>
       </div>
     </div>
