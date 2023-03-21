@@ -20,7 +20,7 @@
         <div class="card luzCard redimensionar" >
             <img src="../assets/proGalo.png" class="card-img-top" alt="progalo">
             <div class="card-body">
-                <h5 class="card-title nomeProd">GALO</h5>
+                <h5 class="card-title nomeProd">GALINHA</h5>
                 <a href="#" class="btn btn-primary btn-sm nomeProd">CONHECER</a>
             </div>
         </div>
