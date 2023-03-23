@@ -15,7 +15,8 @@ import Barrainicial from '../src/components/BarraInicial.vue'
 
 <style scoped>
   body {
+    max-width: 1280px;
     margin: 0 auto;
-    background-color: #000;
+    background-color: #ffffff;
   }
 </style>

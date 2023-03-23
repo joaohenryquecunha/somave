@@ -1,10 +1,10 @@
 <template>
   <header>
-    <nav class="navbar navbar-dark bg-dark fixed-top conteiner conteiner-fluid">
+    <nav class="navbar navcor navbar-dark bg-dark fixed-top conteiner conteiner-fluid">
       <div class="conteiner container-fluid logoOficial ">
         <a href="/"><img src="../assets/oficial1.jpg" alt="oficial1" style="width: 70px;"></a>
-        <div class="fraseTitulo conteiner-fluid">
-          <h1>SOMAVE É TUDO DE BOM</h1>
+        <div class="conteiner titulotxt conteiner-fluid">
+          <h1 class="text-fluid rounded-start text-white">SOMAVE É TUDO DE BOM</h1>
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
           aria-controls="offcanvasDarkNavbar">
@@ -59,22 +59,6 @@
 
 
 <style >
-.fraseTitulo {
-  margin-top: 15px;
-  width:40%;
-  color: #ffffff;
-  font-family: 'Courier New', Courier, monospace;
-  filter: drop-shadow(0px 0px 20px rgb(255, 255, 255));
-}
-.fraseTitulo h1{
-  display: flex;
-  position: relative;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  width: 100%;
-  font-size:auto;
-}
 
 .btnMenu {
   width: 100%;
@@ -82,14 +66,28 @@
 }
 
 a :hover {
-  filter: drop-shadow(0px 0px 20px rgb(255, 255, 255));
+  filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
 }
-
 
 .logoOficial a img {
-  border-radius: 10px;
-  
+  border-radius: 15px;
 }
 
+.navcor {
+  background: linear-gradient(45deg,rgb(255, 123, 0),rgb(255, 51, 0));
+}
+
+.titulotxt {
+  color: #fff;
+}
+@media (max-width:440px){
+  .titulotxt {
+    width: 50%;
+  }
+  .titulotxt h1 {
+    font-size: 85%;
+  }
+  
+}
 
 </style>

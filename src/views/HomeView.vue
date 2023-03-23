@@ -9,30 +9,30 @@
             <h1>PRODUTOS</h1>
         </div>
     </div>
-    <div class="conteiner conteiner-fluid  d-flex m-2 justify-content-center conteinerPrincipal gap-4 flex-wrap " style="width: 100%; ">
-        <div class="card luzCard redimensionar" >
-            <img src="../assets/proGalo.png" class="card-img-top" alt="progalo">
+    <div class="conteiner conteiner-fluid prodcard d-flex m-2 justify-content-center  gap-0 flex-wrap " style="max-width: 1280px; ">
+        <div class="card luzCard redimensionar" style="max-width: 540px;">
+            <img src="../assets/proGalo.png" class="card-img-top img-fluid rounded-start" alt="progalo">
             <div class="card-body">
                 <h5 class="card-title nomeProd">GALO</h5>
                 <a href="#" class="btn btn-primary btn-sm nomeProd">CONHECER</a>
             </div>
         </div>
-        <div class="card luzCard redimensionar" >
-            <img src="../assets/proGalo.png" class="card-img-top" alt="progalo">
+        <div class="card luzCard redimensionar" style="max-width: 540px;" >
+            <img src="../assets/proGalo.png" class="card-img-top img-fluid rounded-start" alt="progalo">
             <div class="card-body">
                 <h5 class="card-title nomeProd">GALINHA</h5>
                 <a href="#" class="btn btn-primary btn-sm nomeProd">CONHECER</a>
             </div>
         </div>
-        <div class="card luzCard redimensionar" >
-            <img src="../assets/proGalo.png" class="card-img-top" alt="progalo">
+        <div class="card luzCard redimensionar" style="max-width: 540px;">
+            <img src="../assets/proGalo.png" class="card-img-top img-fluid rounded-start" alt="progalo">
             <div class="card-body">
                 <h5 class="card-title nomeProd">GALO</h5>
                 <a href="#" class="btn btn-primary btn-sm nomeProd">CONHECER</a>
             </div>
         </div>
-        <div class="card luzCard redimensionar" >
-            <img src="../assets/proGalo.png" class="card-img-top" alt="progalo">
+        <div class="card luzCard redimensionar" style="max-width: 540px;">
+            <img src="../assets/proGalo.png" class="card-img-top img-fluid rounded-start" alt="progalo">
             <div class="card-body">
                 <h5 class="card-title nomeProd">GALO</h5>
                 <a href="#" class="btn btn-primary btn-sm nomeProd">CONHECER</a>
@@ -88,8 +88,9 @@ import FotosHome from '../components/FotosHome.vue';
 
 <style>
 body { 
-    margin: 10px;
-    background-color: #000000;
+    max-width: 1280px;
+    margin:0 auto;
+    background-color: #f1f1f1;
 }
 
 .nomeProd {
@@ -109,7 +110,14 @@ body {
 }
 
 .luzCard {
-    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+    filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
+}
+
+@media (max-width:400px) {
+    .redimensionar{
+        width: 160px;
+    }
+    
 }
 
 /*sessão meio ambiente*/
@@ -142,6 +150,7 @@ body {
     justify-content: center;
     filter: drop-shadow(0px 0px 2px rgb(255, 255, 255));
 }
+
 
 
 /*sessão receitas*/
@@ -204,10 +213,10 @@ body {
     top: -60px;
     width: 100%;
     height: 300px;
-    background: radial-gradient(#3d3b3b, #000, rgb(11, 11, 61));
+    background: radial-gradient(#fffb00, #ffa600, rgb(255, 0, 0));
     margin-top: -80px;
     border-radius: 10px 10px 100px 100px;
-    filter: drop-shadow(0px 0px 2px rgb(255, 255, 255));
+    filter: drop-shadow(0px 0px 2px rgb(0, 0, 0));
 }
 .texto {
     position: relative;
@@ -315,6 +324,18 @@ body {
         margin-bottom: 100px;
         justify-content: center;
         text-align: center;
+    }
+}
+
+@media (max-width:440px) {
+    .fundo1 {
+      height: 80px;  
+    }
+    .fundo2 {
+      height: 80px;  
+    }
+    .fundo3 {
+      height: 80px;  
     }
 }
 

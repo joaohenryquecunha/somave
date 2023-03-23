@@ -50,12 +50,12 @@
 }
 @media (max-width:980px) {
   .bordas {
-    margin-top: 120px;
+    margin-top: 80px;
   }
 }
 @media (max-width:544px) {
   .bordas {
-    margin-top: 150px;
+    margin-top: 70px;
     margin-bottom: 80px;
   }
 }
